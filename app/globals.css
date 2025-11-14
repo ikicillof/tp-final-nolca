@@ -1,0 +1,72 @@
+
+:root {
+    --blanco: #FFFBE9;
+    --negro: #120000;
+    --negro-activo: #121212;
+    --marron: #3E2417;
+    --marron-clarito: #79452F;
+    --color-sombra: rgba(0, 0, 0, 0.5);
+    --luz: rgba(255, 255, 255, 0.5);
+    --gradiente-negro: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 75%);
+    --gris: #b8ada6;
+    --header-altura: 3.5rem;
+    --sombra-chica: 0 0.25rem 0.2rem var(--color-sombra);
+    --sombra-grande: 0 0 1.25rem var(--color-sombra);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.25;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--blanco);
+}
+
+main {
+    min-height: 100vh;
+}
+
+p {
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+img {
+    border-radius: 0.5rem;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  user-select: none;
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+@media (max-width: 780px) {
+  html {
+    font-size: 14px;
+  }
+}
