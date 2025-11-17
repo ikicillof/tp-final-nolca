@@ -40,7 +40,7 @@
                 </label>
               </li>
               <ul>
-                <li><a className={styles.activo} href="/">Inicio</a></li>
+                <li><a href="/">Inicio</a></li>
                 <li><a href="/paginas/compra">Compra</a></li>
                 <li><a href="/paginas/sucursales">Sucursales</a></li>
                 <li><a href="/paginas/contacto">Contacto</a></li>
