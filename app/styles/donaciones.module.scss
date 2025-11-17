@@ -1,0 +1,94 @@
+.prinsipal {
+    position: relative;
+}
+
+
+
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 2fr;
+  grid-template-areas:
+    "titulo foto"
+    "parrafo foto";
+  gap: 1rem;
+  align-items: center;
+  justify-items: center;
+  padding: 5rem 15rem;
+  background-color: var(--crema);
+
+
+  .titulo {
+    grid-area: titulo;
+    text-align: left;
+  }
+
+
+  .foto {
+    grid-area: foto;
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 0.5rem;
+      object-fit: cover;
+    }
+  }
+
+
+  .parrafo {
+    grid-area: parrafo;
+    text-align: left;
+    max-width: 35rem;
+  }
+}
+
+
+
+
+.alerta{
+    position: absolute;
+    margin: 2rem 30%;
+    padding: 1rem 2rem;
+    background-color: var(--gris);
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+.boton {
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 5rem;
+
+
+
+
+  button {
+    padding: 0.8rem 2rem;
+    background-color: var(--marron-clarito);
+    color: var(--crema);
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+
+
+    &:hover {
+      background-color: var(--marron);
+    }
+  }
+}
+
+
+
+
+
+
+

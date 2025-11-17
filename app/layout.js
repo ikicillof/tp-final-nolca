@@ -41,10 +41,10 @@
               </li>
               <ul>
                 <li><a className={styles.activo} href="/">Inicio</a></li>
-                <li><a href="">Compra</a></li>
-                <li><a href="">Sucursales</a></li>
-                <li><a href="">Contacto</a></li>
-                <li><a href="">Doncaciones</a></li>
+                <li><a href="/paginas/compra">Compra</a></li>
+                <li><a href="/paginas/sucursales">Sucursales</a></li>
+                <li><a href="/paginas/contacto">Contacto</a></li>
+                <li><a href="/paginas/donaciones">Doncaciones</a></li>
               </ul>
             </nav>
           </header>
