@@ -1,0 +1,39 @@
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    padding: 5rem 0;
+   
+    .seccion1 {
+        background-color: white;
+        width: 70%;
+        display: flex;
+        padding: 2rem;
+        gap: 2rem;
+        border: solid var(--marron) 0.25rem;
+        border-radius: 0.5rem;
+        
+        section {
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            p {
+                width: 100%;
+            }
+        }
+        img {
+            display: flex;
+            min-width: 50%;
+            height: 20rem;
+        }
+    }
+}
+
+.sec2 {
+    margin: 0 6rem;
+    display: flex;
+    max-width: 86%;
+}

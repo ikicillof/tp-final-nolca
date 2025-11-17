@@ -8,8 +8,8 @@
   });
 
   export const metadata = {
-    title: "parque-nacional-iguazu",
-    description: "Conoce todas las experiencias maravillosas que te esperan en las catarastas del Iguazú",
+    title: "Cafeteria Nolca",
+    descripcion: "cafe y chocolate"
   };
 
   export default function RootLayout({ children }) {
@@ -25,7 +25,7 @@
         <body className={styles.layout}>
           <header>
             <div>
-              <h1>Parque Nacional Iguazu</h1>
+              <h1>Cafetería Nolca</h1>
               <img src="/favicon.ico" />
             </div>
 
@@ -41,10 +41,10 @@
               </li>
               <ul>
                 <li><a className={styles.activo} href="/">Inicio</a></li>
-                <li><a href="">Flora</a></li>
-                <li><a href="">Fauna</a></li>
-                <li><a href="">Excursiones</a></li>
-                <li><a href="">Contactos</a></li>
+                <li><a href="">Compra</a></li>
+                <li><a href="">Sucursales</a></li>
+                <li><a href="">Contacto</a></li>
+                <li><a href="">Doncaciones</a></li>
               </ul>
             </nav>
           </header>
@@ -74,10 +74,10 @@
               <nav>
                 <ul className={styles.menufotter}>
                   <li><a href="/">Inicio</a></li>
-                  <li><a href="">Flora</a></li>
-                  <li><a href="">Fauna</a></li>
-                  <li><a href="">Excursiones</a></li>
-                  <li><a href="">Contactos</a></li>
+                  <li><a href="">Compra</a></li>
+                  <li><a href="">Sucursales</a></li>
+                  <li><a href="">Contacto</a></li>
+                  <li><a href="">Donaciones</a></li>
                 </ul>
               </nav>
             </section>
