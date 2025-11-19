@@ -35,7 +35,7 @@
               </label>
               <input id="menu-toggle" type="checkbox" />
               <ul>
-                <li style={{ listStyle: "none" }} className={styles.close}>
+                <li className={styles.close}>
                   <label htmlFor="menu-toggle">
                     <span className="material-symbols-outlined">close</span>
                   </label>

@@ -6,12 +6,12 @@ import triada from "./componentes/triada";
 export default function Inicio () {
     const chocolates = [
         {
-            imagen: '/images/amargo.jpg', 
+            imagen: '/images/amargo.png', 
             titulo: " ", 
             texto: " "
         }, 
         { 
-            imagen: "/images/dubai.jpg",
+            imagen: "/images/dubai.png",
             titulo: " ",
             texto: " "
         },
@@ -21,7 +21,7 @@ export default function Inicio () {
             texto: " "
         },
              { 
-            imagen: "/images/mierda.jpg",
+            imagen: "/images/mierda.png",
             titulo: " ",
             texto: " "
         },
@@ -34,27 +34,27 @@ export default function Inicio () {
     const cafes = [
 
         {
-            imagen: '/images/capuchina.jpg', 
+            imagen: '/images/capuchino.png', 
             titulo: " ", 
             texto: " "
         }, 
         { 
-            imagen: "/images/cortado.jpg",
+            imagen: "/images/cortado.png",
             titulo: " ",
             texto: " "
         },
        { 
-            imagen: "/images/expreso.jpg",
+            imagen: "/images/expreso.png",
             titulo: " ",
             texto: " "
         },
              { 
-            imagen: "/images/flatWithe.jpg",
+            imagen: "/images/flatWithe.png",
             titulo: " ",
             texto: " "
         },
         { 
-            imagen: "/images/late.jpg",
+            imagen: "/images/late.png",
             titulo: " ",
             texto: " "
         }
@@ -76,12 +76,12 @@ export default function Inicio () {
                             dulzura y sueños servidos en taza. 
                         </p>
                     </section>
-                    <img src="/images/introInicio.jpeg"/>
+                    <img src="/images/introInicio.png"/>
                 </div>
             </div>
             <div className={styles.sec2}>
-                <Carousel className={styles.carruselIndex} items={cafes} intervalo={3000} />
-                <Carousel className={styles.carrusel2Index} items={chocolates} intervalo={3000} direccion={"down"}/>
+                <Carousel className={styles.carruselIndex} items={cafes} intervalo={2000} />
+                <Carousel className={styles.carrusel2Index} items={chocolates} intervalo={2000} direccion={"down"}/>
             </div>
             <div className={styles.sec3}>
                 <div className= {styles.normal}>

@@ -78,14 +78,46 @@
         justify-content: center;
         align-items: centers;
         .seccion1 {
+            width: 100%;
             padding: 2rem 0 0 0;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: center;
+            
+            section {
+                width: 100%;
+            }
+
+            img {
+                width: 100%;
+                min-width: 0;
+                border-radius: 0 0 0.5rem 0.5rem;
+            }
         }
-        img {
-            width: 100%;
+    }
+
+    .sec2 {
+        margin: 0; 
+        max-width: 100%;
+        width: 100%;
+        flex-direction: column;
+
+        .carruselIndex {
+            border-radius: 0.5rem 0.5rem 0 0;
+        }
+
+        .carrusel2Index {
+            border-radius: 0 0 0.5rem 0.5rem;
+        }
+    }
+
+    .sec3 {
+        flex-direction: column;
+        align-items: center;
+
+        .normal, .grande {
+            max-width: 50%;
         }
     }
 }

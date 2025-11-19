@@ -57,6 +57,10 @@
                    align-items: center;
                    border: 0.125rem solid var(--negro);
                    border-radius: 0.25rem;
+
+                   &.close {
+                    display: none;
+                   }
                    
                    &:hover {
                        background-color: var(--marron);
@@ -214,7 +218,7 @@
             flex-direction: row-reverse;
             align-items: center;
             justify-content: space-between;
-            height: var(--header-altura);
+            height: 5rem;
         
             div {
                 display: flex;
@@ -248,8 +252,9 @@
                     position: fixed;
                     top: 0;
                     left: 0;
+                    gap: 3rem;
                     flex-direction: column;
-                    background-color: var(--verde-claro);
+                    background-color: var(--marron);
                     height: 100dvh;
                     align-items: stretch;
                     z-index: 2;
@@ -259,11 +264,14 @@
                         justify-content: stretch;
                         
                         &.close {
-                            height: var(--header-altura);
+                            display: flex;
+                            height: 5rem;
+                            border: none;
+                            background-color: var(--marron);
                             align-items: center;
                             
                             label span { 
-                                color: var(--negro);
+                                color: var(--blanco);
                             }
                         }
             
