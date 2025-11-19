@@ -1,12 +1,22 @@
+.prinsipal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.sec1, .sec2, .sec3 {
+  margin: 0 auto;
+}
 .sec1 {
     display: flex;
     justify-content: center;
-    padding: 5rem 0;
+    padding-bottom: 5rem;
+    width: 80%;
    
     .seccion1 {
+        width: 100%;
         background-color: var(--marron-clarito);
-        width: 70%;
         display: flex;
         padding: 2rem;
         gap: 2rem;
@@ -37,15 +47,18 @@
 }
 
 .sec2 {
-    margin: 0 6rem;
     display: flex;
-    max-width: 86%;
+    width: 80%;
   
     .carruselIndex {
+        min-width: 50%;
         border-radius: 0.5rem 0 0 0.5rem ;
+        border-right: none;
     }
 
     .carrusel2Index {
+        min-width: 50%;
+        border-left: 0.25rem solid var(--negro);
         border-radius: 0 0.5rem 0.5rem 0;
     }
 }
@@ -54,18 +67,23 @@
     padding: 5rem 0;
     display: flex;
     justify-content: center;
+    width: 80%;
+    gap: 4rem;
 
     .normal {
-        padding: 0.5rem;
+        padding: 1rem;
         text-align: center;
         gap: 0.5rem;
         display: flex;
         flex-direction: column;
         background-color: var(--gris);
-        max-width: 25%;
-        margin: 2rem;
         border: solid 0.25rem var(--marron);
         border-radius: 0.5rem;
+        
+        &:hover {
+            transform: scale(1.1);
+            transition: all 0.5s ease;
+        }
     
         p {
             max-width: 20rem;
@@ -77,8 +95,8 @@
     .sec1 {
         justify-content: center;
         align-items: centers;
+        width: 100%;
         .seccion1 {
-            width: 100%;
             padding: 2rem 0 0 0;
             flex-direction: column;
             justify-content: center;
@@ -98,26 +116,38 @@
     }
 
     .sec2 {
-        margin: 0; 
-        max-width: 100%;
         width: 100%;
         flex-direction: column;
+        
+ 
+        .carruselIndex, .carrusel2Index {
+            border: 0.25rem solid var(--negro);
+            height: 40vh;
+            width: 100%;
+        }
 
         .carruselIndex {
             border-radius: 0.5rem 0.5rem 0 0;
+            border-bottom: none;
         }
 
         .carrusel2Index {
             border-radius: 0 0 0.5rem 0.5rem;
         }
+
     }
 
     .sec3 {
+        width: 100%;
         flex-direction: column;
         align-items: center;
 
-        .normal, .grande {
-            max-width: 50%;
+        .normal {
+            max-width: unset;
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            
         }
     }
 }

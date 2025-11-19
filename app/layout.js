@@ -44,7 +44,7 @@
                 <li><a href="/paginas/compra">Compra</a></li>
                 <li><a href="/paginas/sucursales">Sucursales</a></li>
                 <li><a href="/paginas/contacto">Contacto</a></li>
-                <li><a href="/paginas/donaciones">Doncaciones</a></li>
+                <li><a href="/paginas/donaciones">Donaciones</a></li>
               </ul>
             </nav>
           </header>
