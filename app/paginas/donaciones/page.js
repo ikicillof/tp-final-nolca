@@ -26,28 +26,21 @@ export default function Donaciones() {
       )}
 
 
-      <div className={styles.gridContainer}>
-        <div className={styles.titulo}>
+      <div className={styles.contenido}>
+        <div className={styles.sec1}>
           <h1 className={styles.h1}>Donaciones</h1>
-        </div>
-        <div className={styles.parrafo}>
           <p>
-            Ayudar mediante donaciones es un acto sencillo pero poderoso que puede transformar vidas y sembrar esperanza en quienes
-            atraviesan momentos difíciles. Cada contribución, por pequeña que sea, fortalece la comunidad y demuestra que la empatía
-            tiene un impacto real. En Nolca, una cafetería y chocolatería con varias sucursales, este principio se convierte en acción
-            concreta. Un porcentaje de cada venta se destina a un fondo de ayuda que financia alimentos, educación y apoyo a personas en
-            situaciones vulnerables. Además, la cafetería organiza eventos solidarios y campañas educativas donde los clientes pueden participar
-            activamente, creando un vínculo directo con quienes reciben la ayuda. Así, cada café o chocolate comprado se convierte en un
-            pequeño gesto de solidaridad, conectando a los clientes con quienes más lo necesitan a través de un circuito de ayuda cálido y organizado,
-            demostrando que incluso los gestos cotidianos pueden tener un impacto profundo y duradero en la vida de los demás. Nos importa muchísimo
-            ayudar alas personas en situaciones vulnerables y mediante a las donaciones de clientes y hasta organizaciones ofrecemos comedores o eventos
-            de recaudación. Ya que creemos en compartir nuestro amor con todos! Esperamos a futuro ser capaces de ayudar aún más, pero esto es un proceso
-            así que de a poquito avanzamos.
-
-
+            En Nolca creemos en el poder de la solidaridad. 
+            Destinamos un porcentaje de cada venta y las donaciones 
+            de clientes y organizaciones a un fondo que brinda alimentos, 
+            educación y apoyo a personas en situación vulnerable. También 
+            realizamos eventos y campañas solidarias para que la comunidad 
+            participe activamente. Cada café o chocolate se convierte en un 
+            gesto real de ayuda. Nuestro compromiso es seguir ampliando este 
+            impacto, paso a paso.
           </p>
         </div>
-        <div className={styles.foto}>
+        <div className={styles.sec2}>
           <img src="/images/donacion.jpeg" alt="Donación" />
         </div>
       </div>

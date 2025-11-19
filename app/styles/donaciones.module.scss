@@ -5,44 +5,36 @@
 
 
 
-.gridContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 2fr;
-  grid-template-areas:
-    "titulo foto"
-    "parrafo foto";
+.contenido {
+  display: flex;
   gap: 1rem;
   align-items: center;
   justify-items: center;
   padding: 5rem 15rem;
   background-color: var(--crema);
 
+  .sec1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    align-items: center;
 
-  .titulo {
-    grid-area: titulo;
-    text-align: left;
-  }
-
-
-  .foto {
-    grid-area: foto;
-    img {
-      width: 100%;
-      height: auto;
-      border-radius: 0.5rem;
-      object-fit: cover;
+    p {
+      max-width: 50%;
+      min-width: 50%;
     }
   }
 
+  .sec2 {
+    max-width: 40%;
 
-  .parrafo {
-    grid-area: parrafo;
-    text-align: left;
-    max-width: 35rem;
+    img {
+      height: 30rem;
+    }
   }
-}
 
+}
 
 
 
@@ -62,7 +54,6 @@
 
 
 .boton {
-  margin-top: 2rem;
   text-align: center;
   margin-bottom: 5rem;
 
