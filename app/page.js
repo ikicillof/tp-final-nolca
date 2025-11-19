@@ -80,8 +80,8 @@ export default function Inicio () {
                 </div>
             </div>
             <div className={styles.sec2}>
-                <Carousel items={cafes} intervalo={3000} />
-                <Carousel items={chocolates} intervalo={3000} direccion={"down"}/>
+                <Carousel className={styles.carruselIndex} items={cafes} intervalo={3000} />
+                <Carousel className={styles.carrusel2Index} items={chocolates} intervalo={3000} direccion={"down"}/>
             </div>
             <div className={styles.sec3}>
                 <div className= {styles.normal}>

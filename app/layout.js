@@ -34,12 +34,12 @@
                 <span className="material-symbols-outlined">menu</span>
               </label>
               <input id="menu-toggle" type="checkbox" />
-              <li style={{ listStyle: "none" }} className={styles.close}>
-                <label htmlFor="menu-toggle">
-                  <span className="material-symbols-outlined">close</span>
-                </label>
-              </li>
               <ul>
+                <li style={{ listStyle: "none" }} className={styles.close}>
+                  <label htmlFor="menu-toggle">
+                    <span className="material-symbols-outlined">close</span>
+                  </label>
+                </li>         
                 <li><a href="/">Inicio</a></li>
                 <li><a href="/paginas/compra">Compra</a></li>
                 <li><a href="/paginas/sucursales">Sucursales</a></li>
