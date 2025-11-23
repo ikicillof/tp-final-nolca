@@ -27,6 +27,7 @@
 
                 &:hover {
                     background-color: var(--marron);
+                    color: var(--blanco);
                 }
             }
         }
@@ -39,7 +40,24 @@
                 background-color: var(--marron);
                 color: var(--blanco);
                 border-radius: 0.5rem;
-                padding: 0.5rem;
+                padding: 0 0.5rem;
+            }
+
+            a{
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                color: black;
+
+                span {
+                    padding: 0.25rem;
+                    border-radius: 0.5rem;
+                    &:hover {
+                        background-color: var(--marron);
+                        color: var(--blanco);
+                    }
+                }
+                
             }
         }
     }

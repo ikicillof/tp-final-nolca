@@ -38,7 +38,7 @@ export default function Tienda () {
                     <span className="material-symbols-outlined">search</span>
                 </section>
                 <section className={styles.carrito}>
-                    <span className="material-symbols-outlined">shopping_cart</span>
+                    <a href="/carrito"><span className="material-symbols-outlined">shopping_cart</span></a>
                     <p> 3 </p>
                 </section>
 
