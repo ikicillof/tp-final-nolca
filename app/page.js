@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "@/app/page.module.scss";
-import Carousel from "./componentes/carrusel";
-import triada from "./componentes/triada";
+import Carousel from "../componentes/carrusel";
+
 
 export default function Inicio () {
     const chocolates = [

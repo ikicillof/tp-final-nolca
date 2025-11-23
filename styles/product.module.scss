@@ -1,0 +1,40 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 15rem;
+    width: 15rem;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    border: solid 0.125rem var(--negro);
+    
+    h3 {
+        display: flex;       
+        color: var(--blanco);
+        background-color: rgba(0, 0, 0, 0.75);
+        padding: 0.25rem;
+    }
+
+    .infoCompra {
+        background-color: rgba(0, 0, 0, 0.75);
+        display: flex;
+        justify-content: space-between;
+        gap: 2rem;
+
+        p {
+            color: var(--blanco);
+            padding: 0.25rem;
+        }
+
+        button {
+            background-color: var(--gris);
+
+            &:hover {
+                background-color: var(--blanco);
+            }
+        }
+    }
+}

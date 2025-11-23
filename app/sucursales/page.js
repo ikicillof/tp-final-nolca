@@ -1,5 +1,5 @@
-import styles from "@/app/styles/sucursales.module.scss"
-import Carousel from "@/app/componentes/carrusel"
+import styles from "@/styles/sucursales.module.scss"
+import Carousel from "@/componentes/carrusel"
 
 
 

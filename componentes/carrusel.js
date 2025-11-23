@@ -1,14 +1,14 @@
 "use client";
-import styles from "@/app/styles/carrusel.module.scss";
+import styles from "@/styles/carrusel.module.scss";
 import { useState, useEffect } from "react";
-import Card from "@/app/componentes/card";
+import Card from "@/componentes/card";
 import classNames from "classnames";
 
 export default function Carousel({className, items, intervalo = 3000, direccion }) {
   const [index, setIndex] = useState(0);
   const mueveHaciaAbajo = direccion === "down";
   const carouselClass = classNames(styles.carousel, className)
-  console.log(carouselClass, styles.carrusel, className)
+  
   useEffect(() => {
     if (!items.length) return;
     const timer = setInterval(() => {

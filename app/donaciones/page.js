@@ -2,7 +2,7 @@
 
 
 import { useState } from "react";
-import styles from "@/app/styles/donaciones.module.scss";
+import styles from "@/styles/donaciones.module.scss";
 
 
 export default function Donaciones() {

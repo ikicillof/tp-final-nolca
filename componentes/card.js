@@ -1,4 +1,4 @@
-import styles from "../styles/card.module.scss"
+import styles from "@/styles/card.module.scss"
 
 export default function Card ({ imagen, titulo, texto }) {
     return (
