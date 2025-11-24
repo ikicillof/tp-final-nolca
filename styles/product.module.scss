@@ -36,5 +36,15 @@
                 background-color: var(--blanco);
             }
         }
+
+        .quantity {
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+
+            div {
+                color: var(--blanco);
+            }
+        }
     }
 }
