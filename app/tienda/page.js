@@ -2,46 +2,59 @@
 
 import styles from "@/styles/tienda.module.scss";
 import Product from "@/componentes/product";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
+
+
+export const products = [
+    {
+        id: "1", 
+        name: "chocolate 70%", 
+        image: "/images/almendras.jpg", 
+        description: "chocolate amargo",
+        open: false,
+        costo: 3000 
+    }, 
+    {
+        id: "2",
+        name: "chocolate 80%", 
+        image: "/images/almendras.jpg", 
+        description: "chocolate amargo",
+        open: false,
+        costo: 1000
+    }, 
+    {
+        id: "3",
+        name: "chocolate 90%", 
+        image: "/images/almendras.jpg", 
+        description: "chocolate amargo",
+        open: false, 
+        costo: 5000
+    }, 
+    {
+        id: "4",
+        name: "chocolate 100%", 
+        image: "/images/almendras.jpg", 
+        description: "chocolate amargo",
+        open: false, 
+        costo: 1200
+    }
+]
+
 
 export default function Tienda () {
 
     const [carrito, setCarrito] = useState({})
+    // parce transforma un string en un objeto y stringify un objeto en un string
     // devuelve una variable de estado y la funcion para actualizarlo
     const cantidad = useMemo(() => Object.values(carrito).reduce((acumulador, item) => acumulador + item, 0), [carrito])
     // se ejecuta cada vez que cambia carrito
+    useEffect(() => {
+        setCarrito(JSON.parse(localStorage.getItem("carrito")))
+    }, [])
 
-    
-    const products = [
-        {
-            id: 1, 
-            name: "chocolate 70%", 
-            image: "/images/almendras.jpg", 
-            description: "chocolate amargo",
-            open: false
-        }, 
-        {
-            id: 2,
-            name: "chocolate 80%", 
-            image: "/images/almendras.jpg", 
-            description: "chocolate amargo",
-            open: false
-        }, 
-        {
-            id: 3,
-            name: "chocolate 90%", 
-            image: "/images/almendras.jpg", 
-            description: "chocolate amargo",
-            open: false
-        }, 
-        {
-            id: 4,
-            name: "chocolate 100%", 
-            image: "/images/almendras.jpg", 
-            description: "chocolate amargo",
-            open: false
-        }
-    ]
+    useEffect(() => {
+        localStorage.setItem("carrito", JSON.stringify(carrito))
+    }, [carrito])
 
     function onChange(id, cantidad) {
         setCarrito((oldCarrito) => {
@@ -72,7 +85,7 @@ export default function Tienda () {
             <div className={styles.tienda}>
                 <ul>
                     {
-                        products.map((product, i) => <li key={i}><Product onChange={onChange} id={product.id} name={product.name} image={product.image} description={product.description} cantidad={carrito[product.id]}/></li>)                
+                        products.map((product, i) => <li key={i}><Product onChange={onChange} id={product.id} name={product.name} image={product.image} description={product.description} cantidad={carrito[product.id]} costo={product.costo}/></li>)                
                     }
                 </ul>
             </div>

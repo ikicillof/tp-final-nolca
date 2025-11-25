@@ -2,12 +2,12 @@
 
 import styles from "@/styles/product.module.scss";
 
-export default function Product ({image, name, description, open, onChange, id, cantidad}) {
+export default function Product ({image, name, description, open, onChange, id, cantidad, costo}) {
     return (
         <div className={styles.product} style={{ backgroundImage: `url(${image}`}}>
             <h3>{name}</h3>
             <section className={styles.infoCompra}>
-                <p>3000$</p>
+                <p>${costo}</p>
                 {
                     cantidad ? (
                         <div className={styles.quantity}>

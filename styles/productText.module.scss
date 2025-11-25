@@ -26,4 +26,14 @@
         font-weight: bold;
         color: var(--blanco);
     }
+
+    .cantidad {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+
+        div {
+            color: var(--blanco);
+        }
+    }
 }
