@@ -35,12 +35,12 @@ export default function Footer () {
           <section className={styles.sec2}>
             <ul>
               <li><a href="https://www.instagram.com/nolca_coffee_oficial/#"><img src="/images/instagram.svg" /></a></li>
-              <li><a href=""><img src="/images/facebook.svg" /></a></li>
+              <li><a href="https://www.Facebook.com/profile.php?id=61584365303554"><img src="/images/facebook.svg" /></a></li>
             </ul>
           </section>
 
           <section className={styles.sec3}>
-            <p>© Copyright 2025, Parque Nacional Iguazú.<br />Todos los derechos reservados</p>
+            <p>© Copyright 2025, Cafetería Nolca.<br />Todos los derechos reservados</p>
             <img className={styles.imgFooter} src="/favicon.ico" />
           </section>
           </div>
