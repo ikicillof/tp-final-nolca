@@ -17,7 +17,7 @@ export const links = [
     url: "/sucursales"
   }, 
   {
-    name: "contacto", 
+    name: "Contacto", 
     url: "/contacto"
   }, 
   {

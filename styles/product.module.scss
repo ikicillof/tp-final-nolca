@@ -1,32 +1,62 @@
 .product {
+    position: relative;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
     height: 15rem;
     width: 15rem;
+
+    border-radius: 0.5rem;
+    border: solid 0.125rem var(--negro);
 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-    border: solid 0.125rem var(--negro);
-    
+    .overlay {
+        position: absolute;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.7);
+        opacity: 0;
+        transition: opacity 0.25s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        text-align: center;
+
+        p {
+            color: var(--blanco);
+            font-size: 1.1rem;
+            line-height: 1.4;
+        }
+    }
+
+    &:hover .overlay {
+        opacity: 1;
+    }
+
     h3 {
-        display: flex;       
+        display: flex;
         color: var(--blanco);
         background-color: rgba(0, 0, 0, 0.5);
         padding: 0.25rem;
+        z-index: 2;
     }
 
     .infoCompra {
         background-color: rgba(0, 0, 0, 0.5);
         display: flex;
         justify-content: space-between;
+        align-items: center;
         gap: 2rem;
+        padding: 0.25rem;
+        z-index: 2;
 
         p {
             color: var(--blanco);
-            padding: 0.25rem;
         }
 
         button {

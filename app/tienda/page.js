@@ -10,163 +10,144 @@ export const products = [
         id: "1",
         name: "Chocolate 70% cacao",
         image: "/images/tienda1.png",
-        description: "Chocolate amargo intenso",
-        open: false,
+        description: "Chocolate semiamargo intenso",
         costo: 3000
     },
     {
         id: "2",
         name: "Chocolate 80% cacao",
         image: "/images/tienda2.png",
-        description: "Chocolate extra amargo",
-        open: false,
+        description: "Chocolate amargo con notas profundas",
         costo: 3200
     },
     {
         id: "3",
         name: "Chocolate 90% cacao",
         image: "/images/tienda3.png",
-        description: "Chocolate ultra amargo",
-        open: false,
+        description: "Chocolate extra amargo y robusto",
         costo: 3500
     },
     {
         id: "4",
         name: "Chocolate 100% cacao",
         image: "/images/tienda4.png",
-        description: "Puro cacao sin azúcar",
-        open: false,
+        description: "Cacao puro sin azúcar",
         costo: 4200
     },
     {
         id: "5",
-        name: "Café en grano Colombia",
+        name: "Chocolate con Almendras",
         image: "/images/tienda5.png",
-        description: "Café suave de origen colombiano",
-        open: false,
+        description: "Pedazos crocantes de sabor mas el amargor del chocolate",
         costo: 5500
     },
     {
         id: "6",
-        name: "Café en grano Brasil",
+        name: "Chocolate con naranja",
         image: "/images/tienda6.png",
-        description: "Café tostado medio con notas achocolatadas",
-        open: false,
+        description: "Mezcla de notas citricas con el dulzor del chocolate",
         costo: 5000
     },
     {
         id: "7",
-        name: "Café molido Intenso",
+        name: "Bombones surtidos",
         image: "/images/tienda7.png",
-        description: "Sabor fuerte y aromático",
-        open: false,
+        description: "Selección de bombones artesanales",
         costo: 4800
     },
     {
         id: "8",
-        name: "Bombones surtidos",
+        name: "Bombones rellenos de dulce de leche",
         image: "/images/tienda8.png",
-        description: "Selección de bombones artesanales",
-        open: false,
+        description: "Bombones con relleno cremoso tradicional",
         costo: 3500
     },
     {
         id: "9",
-        name: "Bombones rellenos de dulce de leche",
+        name: "Tableta de chocolate con almendras",
         image: "/images/tienda9.png",
-        description: "Relleno cremoso tradicional",
-        open: false,
+        description: "Chocolate con almendras tostadas",
         costo: 3600
     },
     {
         id: "10",
-        name: "Tableta de chocolate con almendras",
+        name: "Alfajor de Brownie con relleno tradicional",
         image: "/images/tienda10.png",
-        description: "Chocolate con almendras tostadas",
-        open: false,
+        description: "Dulce, suave y espojoso alfajor artesanal",
         costo: 3200
     },
     {
         id: "11",
-        name: "Tableta de chocolate con maní",
+        name: "Bolsa de cafe 500g",
         image: "/images/tienda11.png",
-        description: "Chocolate con maní crocante",
-        open: false,
+        description: "Cosechado de los mejores campos de Brasil",
         costo: 2800
     },
     {
         id: "12",
-        name: "Chocolate blanco",
+        name: "Cafe molido 200g",
         image: "/images/tienda12.png",
-        description: "Dulce y cremoso",
-        open: false,
+        description: "Cafe molido de la mejor calidad, proveniente de los campos del paraguay",
         costo: 2500
     },
     {
         id: "13",
-        name: "Chocolate con cookies",
+        name: "Bolsa de cafe 200g",
         image: "/images/tienda13.png",
-        description: "Tableta con trozos de galleta",
-        open: false,
+        description: "Cosechado de los mejores campos de Brasil",
         costo: 3000
     },
     {
         id: "14",
-        name: "Chocolate con pasas",
+        name: "Bebida helada con sabor a cafe",
         image: "/images/tienda14.png",
-        description: "Tableta con pasas de uva",
-        open: false,
+        description: "Fresca dulce, perfecta para el verano",
         costo: 2900
     },
     {
         id: "15",
-        name: "Café instantáneo premium",
+        name: "Latte",
         image: "/images/tienda15.png",
-        description: "Café soluble de alta calidad",
-        open: false,
+        description: "Mezcla de la amargura del cafe con la dulzura de la leche",
         costo: 4200
     },
     {
         id: "16",
-        name: "Café frío Latte",
+        name: "Cafe molido 500g",
         image: "/images/tienda16.png",
-        description: "Bebida fría sabor latte",
-        open: false,
+        description: "Cafe molido de los mejores campos de Argentina",
         costo: 2100
     },
     {
         id: "17",
-        name: "Café frío Mocca",
+        name: "Chocolate blanco Dubai",
         image: "/images/tienda17.png",
-        description: "Bebida fría con chocolate",
-        open: false,
+        description: "Tiene trozos de pistachos mezclados en el chocolate",
         costo: 2300
     },
     {
         id: "18",
-        name: "Chocolate caliente instantáneo",
+        name: "Mani cubierto de chocolate",
         image: "/images/tienda18.png",
-        description: "Polvo para preparar chocolate caliente",
-        open: false,
+        description: "Crocante mani cubierto con chocolate belga de la mejor calidad",
         costo: 1900
     },
     {
         id: "19",
-        name: "Mix de frutos secos con chocolate",
+        name: "Mix de bombones",
         image: "/images/tienda19.png",
-        description: "Nueces, almendras y chocolate",
-        open: false,
+        description: "El regalo perfecto para cualquier situacion, 12 variedades de bombones distintas  y cada uno con su toque especial",
         costo: 3800
     },
     {
         id: "20",
-        name: "Bombones de trufa",
+        name: "Combo Nolca",
         image: "/images/tienda20.png",
-        description: "Bombones rellenos de ganache",
-        open: false,
+        description: "Una bolsa de cafe de 2000g de los campos Argentinos sumado con una tableta de chocolate a elección",
         costo: 4000
     }
 ]
+
 
 
 
@@ -176,7 +157,7 @@ export default function Tienda () {
     const [busqueda, setBusqueda] = useState("")
 
     const resultados = useMemo(() => {
-        return products.filter(product => product.name.indexOf(busqueda)!== -1)
+        return products.filter(product => product.name.toLowerCase().indexOf(busqueda.toLowerCase())!== -1)
     }, [busqueda])
 
     const [carrito, setCarrito] = useState({})
@@ -211,13 +192,11 @@ export default function Tienda () {
                     <input value={busqueda} onChange={e => setBusqueda(e.target.value)} type="search" placeholder="Buscá productos..."/>
                 </section>
                 <section className={styles.carrito}>
-                    <a href="/carrito"><span className="material-symbols-outlined">shopping_cart</span></a>
-                    {
-                        cantidad !== 0 && <p> {cantidad} </p>
-                    }
+                    <a href="/carrito"><span className="material-symbols-outlined">shopping_cart</span>{cantidad !== 0 && <p> {cantidad} </p>}</a>
                 </section>
 
             </div>
+            <h1>Tienda</h1>
             <div className={styles.tienda}>
                
                     {

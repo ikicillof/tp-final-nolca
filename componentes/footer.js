@@ -34,8 +34,8 @@ export default function Footer () {
 
           <section className={styles.sec2}>
             <ul>
-              <li><a href="https://www.instagram.com/parque.nacional.iguazu/?hl=es"><img src="/images/instagram.svg" /></a></li>
-              <li><a href="https://www.facebook.com/ParqueNacIguazu/?locale=es_LA"><img src="/images/facebook.svg" /></a></li>
+              <li><a href="https://www.instagram.com/nolca_coffee_oficial/#"><img src="/images/instagram.svg" /></a></li>
+              <li><a href=""><img src="/images/facebook.svg" /></a></li>
             </ul>
           </section>
 

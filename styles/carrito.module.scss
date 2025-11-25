@@ -49,7 +49,6 @@
 
         .total {
             width: 80%;
-            border: solid .125rem var(--marron);
             grid-column: 5;
             font-weight: bold;
         }       
@@ -59,7 +58,9 @@
     
     .compra {
 
-        background-color: var(--gris);
+        background-color: var(--marron);
+        color: var(--blanco);
+        border-radius: 0.5rem;
         display: flex;
         text-align: center;
         width: 10rem;
@@ -68,6 +69,7 @@
         align-items: center;
 
         &:hover {
+            color: var(--marron);
             background-color: var(--blanco);
         }
     }
@@ -76,17 +78,20 @@
 
 @media (max-width: 780px) {
 
-    .carrito {
+    .principal {
+        gap: 2rem;
+        .carrito {
         grid-template-columns: 3rem repeat(4, 1fr);
-        padding: 0 2rem;
+            
+            .header {
+                display: none;
+            }
+        }
     }
 
-    .header {
-        margin-right: 1rem;
-    }
 
     .principal .carrito .total {
-        grid-column: 3;
+        grid-column: 4;
         width: 150%;
         text-align: center;
     }

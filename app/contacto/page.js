@@ -4,7 +4,7 @@ import styles from "@/styles/contacto.module.scss";
 export default function Contacto() {
   return (
     <div className={styles.principal}>
-      <h2 className={styles.h2}>Contacto</h2>
+      <h1>Contacto</h1>
 
 
       <div className={styles.formContainer}>

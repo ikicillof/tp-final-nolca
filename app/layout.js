@@ -11,9 +11,56 @@ const bitter = Bitter({
 });
 
 export const metadata = {
-  title: "Cafeteria Nolca",
-  descripcion: "cafe y chocolate"
-};
+  title: {
+    default: "Nolca | Cafetería y Chocolatería",
+    template: "%s | Nolca"
+  },
+  description:
+    "Cafetería y chocolatería especializada en productos artesanales. Envíos, tienda online y atención en sucursales.",
+  metadataBase: new URL("https://nolca.com"), // Cambiá a tu dominio real
+
+  openGraph: {
+    type: "website",
+    locale: "es_AR",
+    url: "https://nolca.com",
+    siteName: "Nolca",
+    title: "Nolca | Cafetería y Chocolatería",
+    description:
+      "Descubrí productos artesanales de café y chocolate. Comprá online y recibilo en tu domicilio.",
+    images: [
+      {
+        url: "https://nolca.com/og-image.jpg", // Cambiá a una imagen real
+        width: 1200,
+        height: 630,
+        alt: "Nolca — Cafetería y Chocolatería"
+      }
+    ]
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Nolca | Cafetería y Chocolatería",
+    description:
+      "Café y chocolate artesanal. Tienda online con envíos.",
+    images: ["https://nolca.com/og-image.jpg"], // Igual que arriba
+  },
+
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/apple-touch-icon.png"
+  },
+
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true
+    }
+  }
+}
+
 
 export default function RootLayout({ children }) {
   return (

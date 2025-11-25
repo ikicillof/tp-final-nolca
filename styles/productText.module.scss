@@ -41,16 +41,44 @@
 }
 
 @media (max-width: 780px) {
+
     .product {
-        gap: 0.5rem;
-        align-items: center;
-        justify-content: center;
-        padding: 0 0 .5rem .5rem;
+    display: grid;
+    grid-template-columns: 3rem repeat(3, 1rfr);
+    grid-template-rows: auto auto;
+    grid-template-areas:
+        "imagen nombre nombre nombre"
+        "imagen precio cantidad total";
+    height: 5rem;
+    gap: 1rem;
+    background-color: var(--marron);
+    border-radius: 0.5rem;
+    padding: 0.25rem;
+    align-items: center;
 
         .image {
+            grid-area: imagen;
             margin-left: 0.5rem;
             width: 2rem;
             height: 2rem;
         }
+
+        .name { 
+            grid-area: nombre;
+        }
+
+        .costo {
+            grid-area: precio;
+        }
+
+        .cantidad {
+            grid-area: cantidad;
+        }
+
+        .subTotal {
+            grid-area: total;
+        }
+
+
     }
 }

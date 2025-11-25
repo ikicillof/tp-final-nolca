@@ -50,7 +50,7 @@ export default function () {
             {
                 lista.length ? (
                     <>
-                        <h2>Carrito</h2>
+                        <h1>Carrito</h1>
                         <div className={styles.carrito}>
                             <div className={styles.header}>
                                 <div>Producto</div>
@@ -71,7 +71,7 @@ export default function () {
                                 />
                             ))}
 
-                            <p className={styles.total}>Total: ${total}</p>
+                            <h3 className={styles.total}>Total: ${total}</h3>
                         </div>
 
                         <button className={styles.compra} onClick={finalizarCompra}>
@@ -80,6 +80,7 @@ export default function () {
                     </>
                 ) : (
                     <div className={styles.carritoVacio}>
+                        <h1>Carrito</h1>
                         <p>Carrito vacío</p>
                         <a href="/tienda">Volver a la tienda</a>
                     </div>
