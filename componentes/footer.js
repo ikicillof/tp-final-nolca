@@ -35,7 +35,7 @@ export default function Footer () {
           <section className={styles.sec2}>
             <ul>
               <li><a href="https://www.instagram.com/nolca_coffee_oficial/#"><img src="/images/instagram.svg" /></a></li>
-              <li><a href="https://www.Facebook.com/profile.php?id=61584365303554"><img src="/images/facebook.svg" /></a></li>
+              <li><a href="https://www.facebook.com/people/Nolca-Coffiee/pfbid0matnjcSfDpABgGSuS5MvVL1qY6K7WHyeefaDxVcGwGg6r24hKV9zeRLJH1D4ZYaFl/"><img src="/images/facebook.svg" /></a></li>
             </ul>
           </section>
 
