@@ -57,21 +57,21 @@ export const products = [
     },
     {
         id: "8",
-        name: "Bombones rellenos de dulce de leche",
+        name: "Bombones rellenos",
         image: "/images/tienda8.png",
         description: "Bombones con relleno cremoso tradicional",
         costo: 3500
     },
     {
         id: "9",
-        name: "Tableta de chocolate con almendras",
+        name: "Chocolate con almendras",
         image: "/images/tienda9.png",
         description: "Chocolate con almendras tostadas",
         costo: 3600
     },
     {
         id: "10",
-        name: "Alfajor de Brownie con relleno tradicional",
+        name: "Alfajor de brownie",
         image: "/images/tienda10.png",
         description: "Dulce, suave y espojoso alfajor artesanal",
         costo: 3200
@@ -99,7 +99,7 @@ export const products = [
     },
     {
         id: "14",
-        name: "Bebida helada con sabor a cafe",
+        name: "Cafe helado",
         image: "/images/tienda14.png",
         description: "Fresca dulce, perfecta para el verano",
         costo: 2900
@@ -127,7 +127,7 @@ export const products = [
     },
     {
         id: "18",
-        name: "Mani cubierto de chocolate",
+        name: "Mani bañado",
         image: "/images/tienda18.png",
         description: "Crocante mani cubierto con chocolate belga de la mejor calidad",
         costo: 1900
