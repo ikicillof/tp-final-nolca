@@ -38,14 +38,14 @@ export const products = [
         id: "5",
         name: "Chocolate con Almendras",
         image: "/images/tienda5.png",
-        description: "Pedazos crocantes de sabor mas el amargor del chocolate",
+        description: "Pedazos crocantes de sabor más el amargor del chocolate",
         costo: 5500
     },
     {
         id: "6",
         name: "Chocolate con naranja",
         image: "/images/tienda6.png",
-        description: "Mezcla de notas citricas con el dulzor del chocolate",
+        description: "Mezcla de notas cítricas con el dulzor del chocolate",
         costo: 5000
     },
     {
@@ -78,28 +78,28 @@ export const products = [
     },
     {
         id: "11",
-        name: "Bolsa de cafe 500g",
+        name: "Bolsa de café 500g",
         image: "/images/tienda11.png",
         description: "Cosechado de los mejores campos de Brasil",
         costo: 2800
     },
     {
         id: "12",
-        name: "Cafe molido 200g",
+        name: "Café molido 200g",
         image: "/images/tienda12.png",
-        description: "Cafe molido de la mejor calidad, proveniente de los campos del paraguay",
+        description: "Café molido de la mejor calidad, proveniente de los campos del Paraguay",
         costo: 2500
     },
     {
         id: "13",
-        name: "Bolsa de cafe 200g",
+        name: "Bolsa de café 200g",
         image: "/images/tienda13.png",
         description: "Cosechado de los mejores campos de Brasil",
         costo: 3000
     },
     {
         id: "14",
-        name: "Cafe helado",
+        name: "Café helado",
         image: "/images/tienda14.png",
         description: "Fresca dulce, perfecta para el verano",
         costo: 2900
@@ -113,9 +113,9 @@ export const products = [
     },
     {
         id: "16",
-        name: "Cafe molido 500g",
+        name: "Café molido 500g",
         image: "/images/tienda16.png",
-        description: "Cafe molido de los mejores campos de Argentina",
+        description: "Café molido de los mejores campos de Argentina",
         costo: 2100
     },
     {
@@ -136,14 +136,14 @@ export const products = [
         id: "19",
         name: "Mix de bombones",
         image: "/images/tienda19.png",
-        description: "El regalo perfecto para cualquier situacion, 12 variedades de bombones distintas  y cada uno con su toque especial",
+        description: "El regalo perfecto para cualquier situación, 12 variedades de bombones distintas  y cada uno con su toque especial",
         costo: 3800
     },
     {
         id: "20",
         name: "Combo Nolca",
         image: "/images/tienda20.png",
-        description: "Una bolsa de cafe de 2000g de los campos Argentinos sumado con una tableta de chocolate a elección",
+        description: "Una bolsa de cafe de 200g de los campos Argentinos sumado con una tableta de chocolate sorpresa",
         costo: 4000
     }
 ]
