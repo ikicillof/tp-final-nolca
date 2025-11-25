@@ -1,0 +1,21 @@
+.principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+
+    h1  {
+        display: flex;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    a {
+        padding: 0.5rem;
+        border-radius: 0.5rem;
+        text-decoration: none;
+        background-color: var(--marron);
+        color: var(--blanco);
+    }
+}

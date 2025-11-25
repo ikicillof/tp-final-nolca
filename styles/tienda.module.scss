@@ -1,3 +1,10 @@
+.noResultado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
 .prinsipal {
     display: flex;
     flex-direction: column;
@@ -14,21 +21,18 @@
         margin-top: -5rem;
 
         .buscador {
-            width: 50%;
+            width: 30%;
             display: flex;
             gap: 0;
+            background-color: var(--blanco);
+            border-radius: 0.25rem;
+            align-items: center;
             input {
-                width: 60%;
+                flex: 1;
                 display: flex;
                 height: 1.5rem;
-            }
-            span {
-                display: flex;
-
-                &:hover {
-                    background-color: var(--marron);
-                    color: var(--blanco);
-                }
+                border: none;
+                background-color: transparent;
             }
         }
         .carrito {
@@ -43,7 +47,7 @@
                 padding: 0 0.5rem;
             }
 
-            a{
+            a {
                 display: flex;
                 align-items: center;
                 text-decoration: none;
@@ -81,6 +85,17 @@
     
             li {
                 display: flex;
+            }
+        }
+    }
+}
+
+@media (max-width: 780px) {
+    .prinsipal {
+        
+        .barraNav {
+            .buscador {
+                width: 50%;
             }
         }
     }

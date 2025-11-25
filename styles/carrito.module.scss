@@ -1,49 +1,94 @@
 
-.prinsipal {
+.principal {
     display: flex;
     flex-direction: column;
     margin: -5rem 0;
     justify-content: center;
-    padding: 3rem 0 0 0;
+    padding: 3rem;
     background-color: var(--gris);
+    align-items: center;
     
+    .carritoVacio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+    
+        p  {
+            display: flex;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        a {
+            padding: 0.5rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            background-color: var(--marron);
+            color: var(--blanco);
+        }
+    }
+
     h2 {
         text-align: center;
     }
 
     .carrito {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: 3rem repeat(4, 1fr);
         padding: 3rem 1rem;
         gap: 2rem;
 
-        ul {
-            display: flex;
-            flex-direction: column;
-            gap: 2rem;
-            list-style: none;
+        .header {
+            font-weight: bold;
+            display: grid;
+            grid-template-columns: subgrid;
+            grid-column: 2 / -1;
+        }
+
+        .total {
+            width: 80%;
+            border: solid .125rem var(--marron);
+            grid-column: 5;
+            font-weight: bold;
+        }       
+        
+    }
+
+    
+    .compra {
+
+        background-color: var(--gris);
+        display: flex;
+        text-align: center;
+        width: 10rem;
+        height: 5rem;
+        font-size: 2.5rem;
+        align-items: center;
+
+        &:hover {
+            background-color: var(--blanco);
         }
     }
 
-    .compra {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0.5rem 1rem;
-        height: 3rem;
-        background-color: var(--marron);
+}
 
-        button {
-            background-color: var(--gris);
+@media (max-width: 780px) {
 
-            &:hover {
-                background-color: var(--blanco);
-            }
-        }
+    .carrito {
+        grid-template-columns: 3rem repeat(4, 1fr);
+        padding: 0 2rem;
+    }
 
-        p {
-            color: var(--blanco);
-        }
+    .header {
+        margin-right: 1rem;
+    }
+
+    .principal .carrito .total {
+        grid-column: 3;
+        width: 150%;
+        text-align: center;
     }
 
 }

@@ -11,7 +11,6 @@ export default function ProductText({image, name, costo, cantidad, onChange, id}
                 <div>{cantidad}</div>
                 <button onClick={() => onChange(id, cantidad + 1)}>+</button>
             </div>
-            <p>{cantidad}</p>
             <p>${cantidad * costo}</p>
         </div>
     )
